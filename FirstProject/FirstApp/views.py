@@ -164,3 +164,17 @@ def homepage(request):
         <h3>Plz try other URL or Links!!!</h3>
     </center>''';
     return HttpResponse(htmldata);
+
+
+#git_view_func()
+def git_view_func(request):
+	return HttpResponse("<h1>Hello from git hub view function</h1><hr />");
+
+
+
+
+
+
+
+
+
